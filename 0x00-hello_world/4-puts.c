@@ -1,12 +1,10 @@
 #include <stdio.h>
 
-
-
 /**
  *
- * * main - Printing
+ * main - Printing
  *
- * * Return: Always 0 (Successful)
+ * Return: Always 0 (Successful)
  *
  */
 
