@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - lowercase alphabets
+ * main - Prints the alphabet at reverse
  *
  * Return: Always (Success)
  */
@@ -11,11 +11,19 @@ int main(void)
 {
 	char c;
 
-	for (c = 'a'; c <= 'z'; c++)
+	for (c = 'z'; c >= 'a'; c--)
+
+	{
 
 		putchar(c);
 
+	}
+
+
+
 	putchar('\n');
+
+
 
 	return (0);
 
