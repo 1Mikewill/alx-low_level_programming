@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 /**
-  * main - Ommit some alphabet
-  *
-  * Return: Always (Success)
-  */
+ * main - Ommit some alphabet
+ *
+ * Return: Always (Success)
+ */
 
 int main(void)
 
@@ -14,6 +14,7 @@ int main(void)
 	for (c = 'a'; c <= 'z'; c++)
 
 	{
+
 		if (c != 'e' && c != 'q')
 
 		{
@@ -24,7 +25,12 @@ int main(void)
 
 	}
 
+
+
 	putchar('\n');
+
+
+
 	return (0);
 
 }
