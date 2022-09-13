@@ -1,11 +1,8 @@
 #include "main.h"
 
 /**
- *
  * main - prints puchar followed by a new line
- *
  * returns 0 always
- *
  */
 
 int main(void)
