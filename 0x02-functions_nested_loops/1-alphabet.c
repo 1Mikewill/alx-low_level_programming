@@ -2,7 +2,6 @@
 
 /**
  *print_alphabet - prints out lowercase alphabet
- *return= always alphabet
  */
 
 void print_alphabet(void)
@@ -14,5 +13,4 @@ void print_alphabet(void)
 		_putchar(b);
 	}
 	_putchar('\n');
-	return (0);
 }
