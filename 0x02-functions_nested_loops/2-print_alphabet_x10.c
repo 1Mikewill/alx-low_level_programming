@@ -3,6 +3,7 @@
 /**
  *print_alphabet_x10 - prints alphabets ten times
  *
+ * return: 0
  */
 
 void print_alphabet_x10(void)
@@ -15,6 +16,7 @@ void print_alphabet_x10(void)
 		{
 			_putchar(j);
 		}
-		_putchar(i);
 		_putchar('\n');
 	}
+}
+
