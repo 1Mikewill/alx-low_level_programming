@@ -5,12 +5,12 @@
  * @n: character for the argument
  * Return: 1 0 and -1 depending on condition
  */
-
 int print_sign(int n)
 {
 	if (n > 0)
 	{
-		_putchar(+);
+		_putchar(+)i;
+		return ('1');
 	}
 	else if (n < 0)
 	{
