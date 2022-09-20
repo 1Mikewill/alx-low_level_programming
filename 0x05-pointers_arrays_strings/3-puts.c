@@ -2,7 +2,7 @@
 
 /**
  *_puts-> function that prints a string, followed by a new line, to stdout
- *@str: string
+ *@str: parameter to puts function
  *Return: string
  */
 
@@ -10,7 +10,7 @@ void _puts(char *str)
 {
 	int a:
 
-		for (a = 0; str[a] != '0'; a++)
+		for (; str[a] != '\0'; a++)
 		{
 			_putchar(str[a]);
 		}
