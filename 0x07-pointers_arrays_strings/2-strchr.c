@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- *_strchr - function that locates a char in a string
- *@s:string in argument
- *@c: character to be checked
- *Return: returns pointer or null
+ * _strchr - function that locates a char in a string
+ * @s:string in argument
+ * @c: character to be checked
+ * Return: returns pointer or null
  */
 
 char *_strchr(char *s, char c)
@@ -19,6 +19,6 @@ char *_strchr(char *s, char c)
 		}
 		if (*(s + i) == c
 				return (s + i);
-				Return 0;
+				return 0;
 				}
 				}
